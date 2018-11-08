@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  officemanagementsystem:
+    image: officemanagementsystem
+    build:
+      context: ./OfficeManagementSystem
+      dockerfile: Dockerfile
